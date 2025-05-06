@@ -123,29 +123,6 @@ summary, tree, content = await ingest_async("path/to/directory")
 
 This is because Jupyter notebooks are asynchronous by default.
 
-## 🐳 Self-host
-
-1. Build the image:
-
-   ``` bash
-   docker build -t gitingest .
-   ```
-
-2. Run the container:
-
-   ``` bash
-   docker run -d --name gitingest -p 8000:8000 gitingest
-   ```
-
-The application will be available at `http://localhost:8000`.
-
-If you are hosting it on a domain, you can specify the allowed hostnames via env variable `ALLOWED_HOSTS`.
-
-   ```bash
-   # Default: "gitingest.com, *.gitingest.com, localhost, 127.0.0.1".
-   ALLOWED_HOSTS="example.com, localhost, 127.0.0.1"
-   ```
-
 ## 🤝 Contributing
 
 ### Non-technical ways to contribute

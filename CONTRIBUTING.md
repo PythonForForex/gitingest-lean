@@ -48,25 +48,9 @@ Thanks for your interest in contributing to Gitingest! 🚀 Gitingest aims to be
    pytest
    ```
 
-8. Run the local web server
+8. Confirm that everything is working as expected. If you encounter any issues, fix them and repeat steps 6 to 8.
 
-   1. Navigate to src folder
-
-        ``` bash
-        cd src
-        ```
-
-   2. Run the local web server:
-
-      ``` bash
-      uvicorn server.main:app
-      ```
-
-   3. Open your browser and navigate to `http://localhost:8000` to see the app running.
-
-9. Confirm that everything is working as expected. If you encounter any issues, fix them and repeat steps 6 to 8.
-
-10. Commit your changes:
+9. Commit your changes:
 
     ```bash
     git commit -m "Your commit message"
@@ -74,14 +58,14 @@ Thanks for your interest in contributing to Gitingest! 🚀 Gitingest aims to be
 
     If `pre-commit` raises any issues, fix them and repeat steps 6 to 9.
 
-11. Push your changes:
+10. Push your changes:
 
     ```bash
     git push origin your-branch
     ```
 
-12. Open a pull request on GitHub. Make sure to include a detailed description of your changes.
+11. Open a pull request on GitHub. Make sure to include a detailed description of your changes.
 
-13. Wait for the maintainers to review your pull request. If there are any issues, fix them and repeat steps 6 to 12.
+12. Wait for the maintainers to review your pull request. If there are any issues, fix them and repeat steps 6 to 12.
 
     *(Optional) Invite project maintainer to your branch for easier collaboration.*
